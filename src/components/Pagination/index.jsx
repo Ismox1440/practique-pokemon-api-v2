@@ -29,7 +29,7 @@ export default function Pagination() {
         nextLabel="next"
         onPageChange={handlepage}
         pageRangeDisplayed={4}
-    
+        forcePage={navigation.page}
         pageCount={pageCount}
         previousLabel="prev"
         renderOnZeroPageCount={null}
